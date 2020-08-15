@@ -21,5 +21,8 @@
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
-    }
+    },
+    "git.ignoreLimitWarning": true,
+    "editor.wrappingIndent": "none",
+    "editor.wordWrap": "off"
 }
