@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+// #define MASTER_LEFT
+#define MASTER_RIGHT
 // #define EE_HANDS
 
 #define USE_SERIAL_PD2
@@ -48,3 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
 */
+
+// Use the lily version to get the Lily58 logo instead of the qmk logo
+#undef OLED_FONT_H
+#define OLED_FONT_H "glcdfont_bigger.c"
